@@ -1,9 +1,9 @@
 {
   ".claude/settings.local.json": {
-    "mtime": 1790192548.036709,
-    "seen": 1790239220.444837,
-    "ast_hash": "befd77a90d244f1da2581c56a09d36ed",
-    "semantic_hash": "befd77a90d244f1da2581c56a09d36ed"
+    "mtime": 1790257163.2012043,
+    "seen": 1790266629.8581314,
+    "ast_hash": "b7ac265f38dc59ea6b93f097d1842450",
+    "semantic_hash": ""
   },
   "voice-assistant/assistant/__init__.py": {
     "mtime": 1790193003.6971054,
@@ -111,6 +111,60 @@
     "mtime": 1790192950.302148,
     "seen": 1790255595.3440213,
     "ast_hash": "5d32edf13c450d4ed0f1b2234cbf9c27",
+    "semantic_hash": ""
+  },
+  "voice-assistant/demo_working.py": {
+    "mtime": 1790265897.3167763,
+    "seen": 1790266629.8581314,
+    "ast_hash": "e1866560a30a5349e4a1077bd8d548db",
+    "semantic_hash": ""
+  },
+  "voice-assistant/run_alfred.py": {
+    "mtime": 1790257549.5562267,
+    "seen": 1790266629.8581314,
+    "ast_hash": "ba2d905940c34eb401a6959027556eba",
+    "semantic_hash": ""
+  },
+  "voice-assistant/run_alfred_fixed.py": {
+    "mtime": 1790258101.3286736,
+    "seen": 1790266629.8581314,
+    "ast_hash": "c6ec90e25f10804d0b5f390f20bd8f38",
+    "semantic_hash": ""
+  },
+  "voice-assistant/run_fixed.py": {
+    "mtime": 1790258206.6110795,
+    "seen": 1790266629.8581314,
+    "ast_hash": "3279f2daeaf994e45e732592b691e5a5",
+    "semantic_hash": ""
+  },
+  "voice-assistant/run_working.py": {
+    "mtime": 1790265438.4527357,
+    "seen": 1790266629.8581314,
+    "ast_hash": "29893f090ba8e42b6943aa09d9acf12b",
+    "semantic_hash": ""
+  },
+  "voice-assistant/test_stt.py": {
+    "mtime": 1790266009.8203542,
+    "seen": 1790266629.8581314,
+    "ast_hash": "f7d58f55ad92aa3ce5b21b198e4c5165",
+    "semantic_hash": ""
+  },
+  "voice-assistant/test_stt_simple.py": {
+    "mtime": 1790266051.6023085,
+    "seen": 1790266629.8581314,
+    "ast_hash": "9241d50417a620f8fc52ff33d157ce28",
+    "semantic_hash": ""
+  },
+  "voice-assistant/config_fixed.yaml": {
+    "mtime": 1790258359.643412,
+    "seen": 1790266629.8581314,
+    "ast_hash": "ac2c91e2763633905b5af76063da000b",
+    "semantic_hash": ""
+  },
+  "voice-assistant/config_test.yaml": {
+    "mtime": 1790265391.2063353,
+    "seen": 1790266629.8581314,
+    "ast_hash": "c4e6de07752aa1ffebfefd97c4e2e6ba",
     "semantic_hash": ""
   }
 }
