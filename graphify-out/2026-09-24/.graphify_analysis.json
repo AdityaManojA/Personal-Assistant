@@ -1,0 +1,357 @@
+{
+  "communities": {
+    "0": [
+      "collections",
+      "pathlib",
+      "voice_assistant_assistant_vad",
+      "voice_assistant_assistant_vad_default_model_path",
+      "voice_assistant_assistant_vad_endpointer",
+      "voice_assistant_assistant_vad_endpointer_audio",
+      "voice_assistant_assistant_vad_endpointer_begin",
+      "voice_assistant_assistant_vad_endpointer_feed",
+      "voice_assistant_assistant_vad_endpointer_init",
+      "voice_assistant_assistant_vad_endpointer_is_speaking",
+      "voice_assistant_assistant_vad_endpointer_load_model",
+      "voice_assistant_assistant_vad_endpointer_probabilities",
+      "voice_assistant_assistant_vad_pre_roll_frames",
+      "voice_assistant_assistant_vad_py_ndarray",
+      "voice_assistant_assistant_vad_py_path",
+      "voice_assistant_assistant_vad_rationale_1",
+      "voice_assistant_assistant_vad_rationale_122",
+      "voice_assistant_assistant_vad_rationale_138",
+      "voice_assistant_assistant_vad_rationale_182",
+      "voice_assistant_assistant_vad_rationale_195",
+      "voice_assistant_assistant_vad_rationale_35",
+      "voice_assistant_assistant_vad_rationale_64",
+      "voice_assistant_assistant_vad_rationale_75",
+      "voice_assistant_assistant_vad_silerovadonnx",
+      "voice_assistant_assistant_vad_silerovadonnx_call",
+      "voice_assistant_assistant_vad_silerovadonnx_init",
+      "voice_assistant_assistant_vad_silerovadonnx_reset"
+    ],
+    "1": [
+      "any",
+      "dataclasses",
+      "voice_assistant_assistant_config",
+      "voice_assistant_assistant_config_apply_env_overrides",
+      "voice_assistant_assistant_config_assistantconfig",
+      "voice_assistant_assistant_config_audioconfig",
+      "voice_assistant_assistant_config_audioconfig_frame_samples",
+      "voice_assistant_assistant_config_build",
+      "voice_assistant_assistant_config_config",
+      "voice_assistant_assistant_config_config_notes_path",
+      "voice_assistant_assistant_config_config_system_prompt",
+      "voice_assistant_assistant_config_llmconfig",
+      "voice_assistant_assistant_config_load_config",
+      "voice_assistant_assistant_config_load_dotenv",
+      "voice_assistant_assistant_config_py_path",
+      "voice_assistant_assistant_config_rationale_1",
+      "voice_assistant_assistant_config_rationale_141",
+      "voice_assistant_assistant_config_rationale_164",
+      "voice_assistant_assistant_config_rationale_22",
+      "voice_assistant_assistant_config_sttconfig",
+      "voice_assistant_assistant_config_toolsconfig",
+      "voice_assistant_assistant_config_ttsconfig",
+      "voice_assistant_assistant_config_vadconfig",
+      "voice_assistant_assistant_config_wakewordconfig",
+      "yaml"
+    ],
+    "2": [
+      "voice_assistant_assistant_audio_rationale_111",
+      "voice_assistant_assistant_audio_rationale_135",
+      "voice_assistant_assistant_audio_rationale_83",
+      "voice_assistant_assistant_audio_speaker",
+      "voice_assistant_assistant_audio_speaker_abort",
+      "voice_assistant_assistant_audio_speaker_close",
+      "voice_assistant_assistant_audio_speaker_close_locked",
+      "voice_assistant_assistant_audio_speaker_ensure_open",
+      "voice_assistant_assistant_audio_speaker_enter",
+      "voice_assistant_assistant_audio_speaker_exit",
+      "voice_assistant_assistant_audio_speaker_init",
+      "voice_assistant_assistant_audio_speaker_play",
+      "voice_assistant_assistant_audio_speaker_resume",
+      "voice_assistant_assistant_tts_nullengine",
+      "voice_assistant_assistant_tts_nullengine_load",
+      "voice_assistant_assistant_tts_nullengine_synthesize",
+      "voice_assistant_assistant_tts_piperengine",
+      "voice_assistant_assistant_tts_piperengine_init",
+      "voice_assistant_assistant_tts_piperengine_load",
+      "voice_assistant_assistant_tts_piperengine_synthesize",
+      "voice_assistant_assistant_tts_py_ndarray",
+      "voice_assistant_assistant_tts_rationale_28",
+      "voice_assistant_assistant_tts_rationale_56",
+      "voice_assistant_assistant_tts_rationale_81",
+      "voice_assistant_assistant_tts_voice_init"
+    ],
+    "3": [
+      "argparse",
+      "callable",
+      "openai",
+      "re",
+      "signal",
+      "sys",
+      "voice_assistant_assistant_audio_list_devices",
+      "voice_assistant_assistant_audio_rationale_201",
+      "voice_assistant_assistant_text",
+      "voice_assistant_assistant_text_clean_for_speech",
+      "voice_assistant_assistant_text_rationale_1",
+      "voice_assistant_assistant_text_rationale_28",
+      "voice_assistant_assistant_text_sentencebuffer",
+      "voice_assistant_assistant_text_sentencebuffer_flush",
+      "voice_assistant_assistant_text_sentencebuffer_init",
+      "voice_assistant_assistant_text_sentencebuffer_push",
+      "voice_assistant_run",
+      "voice_assistant_run_main",
+      "voice_assistant_run_process_with_llm",
+      "voice_assistant_run_rationale_2",
+      "voice_assistant_run_rationale_256",
+      "voice_assistant_run_rationale_36",
+      "voice_assistant_run_setup_signal_handlers",
+      "voice_assistant_run_setup_signal_handlers_handler"
+    ],
+    "4": [
+      "numpy",
+      "queue",
+      "sounddevice",
+      "threading",
+      "voice_assistant_assistant_audio",
+      "voice_assistant_assistant_audio_chunker",
+      "voice_assistant_assistant_audio_py_ndarray",
+      "voice_assistant_assistant_audio_rationale_1",
+      "voice_assistant_assistant_audio_rationale_171",
+      "voice_assistant_assistant_audio_rationale_176",
+      "voice_assistant_assistant_audio_rationale_181",
+      "voice_assistant_assistant_audio_rationale_187",
+      "voice_assistant_assistant_audio_to_float32",
+      "voice_assistant_assistant_audio_to_int16",
+      "voice_assistant_assistant_audio_tone",
+      "voice_assistant_assistant_tts",
+      "voice_assistant_assistant_tts_play_chime",
+      "voice_assistant_assistant_tts_rationale_1",
+      "voice_assistant_assistant_tts_rationale_173"
+    ],
+    "5": [
+      "voice_assistant_assistant_tools_rationale_134",
+      "voice_assistant_assistant_tools_rationale_176",
+      "voice_assistant_assistant_tools_rationale_205",
+      "voice_assistant_assistant_tools_rationale_22",
+      "voice_assistant_assistant_tools_rationale_241",
+      "voice_assistant_assistant_tools_rationale_263",
+      "voice_assistant_assistant_tools_rationale_35",
+      "voice_assistant_assistant_tools_rationale_47",
+      "voice_assistant_assistant_tools_rationale_98",
+      "voice_assistant_assistant_tools_tools",
+      "voice_assistant_assistant_tools_tools_cancel_timer",
+      "voice_assistant_assistant_tools_tools_cleanup_timers",
+      "voice_assistant_assistant_tools_tools_get_time",
+      "voice_assistant_assistant_tools_tools_init",
+      "voice_assistant_assistant_tools_tools_list_notes",
+      "voice_assistant_assistant_tools_tools_list_timers",
+      "voice_assistant_assistant_tools_tools_set_timer",
+      "voice_assistant_assistant_tools_tools_system_info",
+      "voice_assistant_assistant_tools_tools_take_note"
+    ],
+    "6": [
+      "datetime",
+      "io",
+      "json",
+      "logging",
+      "os",
+      "time",
+      "typing",
+      "uuid",
+      "voice_assistant_assistant_stt",
+      "voice_assistant_assistant_stt_rationale_1",
+      "voice_assistant_assistant_tools",
+      "voice_assistant_assistant_tools_rationale_1",
+      "voice_assistant_assistant_wakeword",
+      "voice_assistant_assistant_wakeword_rationale_1",
+      "wave"
+    ],
+    "7": [
+      "voice_assistant_assistant_tts_rationale_121",
+      "voice_assistant_assistant_tts_rationale_147",
+      "voice_assistant_assistant_tts_rationale_155",
+      "voice_assistant_assistant_tts_rationale_94",
+      "voice_assistant_assistant_tts_voice",
+      "voice_assistant_assistant_tts_voice_close",
+      "voice_assistant_assistant_tts_voice_is_speaking",
+      "voice_assistant_assistant_tts_voice_load",
+      "voice_assistant_assistant_tts_voice_say",
+      "voice_assistant_assistant_tts_voice_start",
+      "voice_assistant_assistant_tts_voice_stop",
+      "voice_assistant_assistant_tts_voice_wait",
+      "voice_assistant_assistant_tts_voice_worker"
+    ],
+    "8": [
+      "voice_assistant_assistant_audio_microphone",
+      "voice_assistant_assistant_audio_microphone_callback",
+      "voice_assistant_assistant_audio_microphone_drain",
+      "voice_assistant_assistant_audio_microphone_enter",
+      "voice_assistant_assistant_audio_microphone_exit",
+      "voice_assistant_assistant_audio_microphone_init",
+      "voice_assistant_assistant_audio_microphone_read",
+      "voice_assistant_assistant_audio_microphone_start",
+      "voice_assistant_assistant_audio_microphone_stop",
+      "voice_assistant_assistant_audio_rationale_22",
+      "voice_assistant_assistant_audio_rationale_61"
+    ],
+    "9": [
+      "voice_assistant_assistant_stt_env_key",
+      "voice_assistant_assistant_stt_py_ndarray",
+      "voice_assistant_assistant_stt_rationale_70",
+      "voice_assistant_assistant_stt_transcriber",
+      "voice_assistant_assistant_stt_transcriber_init",
+      "voice_assistant_assistant_stt_transcriber_load",
+      "voice_assistant_assistant_stt_transcriber_transcribe",
+      "voice_assistant_assistant_stt_transcriber_transcribe_local",
+      "voice_assistant_assistant_stt_transcriber_transcribe_nim",
+      "voice_assistant_assistant_stt_transcriber_warmup",
+      "voice_assistant_assistant_stt_wav_bytes"
+    ],
+    "10": [
+      "voice_assistant_assistant_wakeword_py_ndarray",
+      "voice_assistant_assistant_wakeword_py_path",
+      "voice_assistant_assistant_wakeword_rationale_22",
+      "voice_assistant_assistant_wakeword_rationale_71",
+      "voice_assistant_assistant_wakeword_rationale_81",
+      "voice_assistant_assistant_wakeword_wakeworddetector",
+      "voice_assistant_assistant_wakeword_wakeworddetector_init",
+      "voice_assistant_assistant_wakeword_wakeworddetector_load",
+      "voice_assistant_assistant_wakeword_wakeworddetector_process",
+      "voice_assistant_assistant_wakeword_wakeworddetector_reset",
+      "voice_assistant_assistant_wakeword_wakeworddetector_score"
+    ],
+    "11": [
+      "voice_assistant_assistant_init",
+      "voice_assistant_assistant_init_rationale_1"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10826210826210826,
+    "1": 0.10333333333333333,
+    "2": 0.09666666666666666,
+    "3": 0.10507246376811594,
+    "4": 0.15789473684210525,
+    "5": 0.12280701754385964,
+    "6": 0.1523809523809524,
+    "7": 0.15384615384615385,
+    "8": 0.21818181818181817,
+    "9": 0.3090909090909091,
+    "10": 0.21818181818181817,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "voice_assistant_assistant_audio_speaker",
+      "label": "Speaker",
+      "degree": 17
+    },
+    {
+      "id": "voice_assistant_assistant_tts_voice",
+      "label": "Voice",
+      "degree": 14
+    },
+    {
+      "id": "voice_assistant_run_main",
+      "label": "main()",
+      "degree": 14
+    },
+    {
+      "id": "voice_assistant_assistant_audio_microphone",
+      "label": "Microphone",
+      "degree": 12
+    },
+    {
+      "id": "voice_assistant_assistant_vad_endpointer",
+      "label": "Endpointer",
+      "degree": 11
+    },
+    {
+      "id": "voice_assistant_assistant_tools_tools",
+      "label": "Tools",
+      "degree": 11
+    },
+    {
+      "id": "voice_assistant_assistant_wakeword_wakeworddetector",
+      "label": "WakeWordDetector",
+      "degree": 9
+    },
+    {
+      "id": "voice_assistant_assistant_stt_transcriber",
+      "label": "Transcriber",
+      "degree": 9
+    },
+    {
+      "id": "voice_assistant_assistant_tts_piperengine",
+      "label": "PiperEngine",
+      "degree": 8
+    },
+    {
+      "id": "voice_assistant_assistant_config_load_config",
+      "label": "load_config()",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "play_chime()",
+      "target": "Speaker",
+      "source_files": [
+        "voice-assistant/assistant/tts.py",
+        "voice-assistant/assistant/audio.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "Voice",
+      "target": "Speaker",
+      "source_files": [
+        "voice-assistant/assistant/tts.py",
+        "voice-assistant/assistant/audio.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "Endpointer",
+      "source_files": [
+        "voice-assistant/run.py",
+        "voice-assistant/assistant/vad.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "WakeWordDetector",
+      "source_files": [
+        "voice-assistant/run.py",
+        "voice-assistant/assistant/wakeword.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "Speaker",
+      "source_files": [
+        "voice-assistant/run.py",
+        "voice-assistant/assistant/audio.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

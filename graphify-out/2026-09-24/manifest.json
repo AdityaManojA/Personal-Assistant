@@ -1,0 +1,68 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1790192548.036709,
+    "seen": 1790239220.444837,
+    "ast_hash": "befd77a90d244f1da2581c56a09d36ed",
+    "semantic_hash": "befd77a90d244f1da2581c56a09d36ed"
+  },
+  "voice-assistant/assistant/__init__.py": {
+    "mtime": 1790193003.6971054,
+    "seen": 1790239220.444837,
+    "ast_hash": "7eac5bb52067e50e1b903c36f88b46ac",
+    "semantic_hash": "7eac5bb52067e50e1b903c36f88b46ac"
+  },
+  "voice-assistant/assistant/audio.py": {
+    "mtime": 1790193148.9122138,
+    "seen": 1790239220.444837,
+    "ast_hash": "61c6e89cd7f857627ec2cd700539af75",
+    "semantic_hash": "61c6e89cd7f857627ec2cd700539af75"
+  },
+  "voice-assistant/assistant/config.py": {
+    "mtime": 1790193065.6659505,
+    "seen": 1790239220.444837,
+    "ast_hash": "92eed0e6702a2ae1b92577c896126f6d",
+    "semantic_hash": "92eed0e6702a2ae1b92577c896126f6d"
+  },
+  "voice-assistant/assistant/stt.py": {
+    "mtime": 1790193671.7261095,
+    "seen": 1790239220.444837,
+    "ast_hash": "90045a7d18d0ed34839387a205b2e6ae",
+    "semantic_hash": "90045a7d18d0ed34839387a205b2e6ae"
+  },
+  "voice-assistant/assistant/text.py": {
+    "mtime": 1790193417.3250513,
+    "seen": 1790239220.444837,
+    "ast_hash": "7f1746a5ae541bacde5645b33336c686",
+    "semantic_hash": "7f1746a5ae541bacde5645b33336c686"
+  },
+  "voice-assistant/assistant/tools.py": {
+    "mtime": 1790194076.11831,
+    "seen": 1790239220.444837,
+    "ast_hash": "dc729e21a4a935596134c201cfbf97b1",
+    "semantic_hash": "dc729e21a4a935596134c201cfbf97b1"
+  },
+  "voice-assistant/assistant/tts.py": {
+    "mtime": 1790193671.7869194,
+    "seen": 1790239220.444837,
+    "ast_hash": "c66d2a6fe569a6e028804ba6630ab26d",
+    "semantic_hash": "c66d2a6fe569a6e028804ba6630ab26d"
+  },
+  "voice-assistant/assistant/vad.py": {
+    "mtime": 1790193245.758332,
+    "seen": 1790239220.444837,
+    "ast_hash": "6ee8203766458573c9fe99a5ec983403",
+    "semantic_hash": "6ee8203766458573c9fe99a5ec983403"
+  },
+  "voice-assistant/assistant/wakeword.py": {
+    "mtime": 1790193245.696801,
+    "seen": 1790239220.444837,
+    "ast_hash": "d35ef876f398edeb149ea0166892e11d",
+    "semantic_hash": "d35ef876f398edeb149ea0166892e11d"
+  },
+  "voice-assistant/run.py": {
+    "mtime": 1790194041.6776183,
+    "seen": 1790239220.444837,
+    "ast_hash": "8ada5403bafad0841b2849bda5775144",
+    "semantic_hash": "8ada5403bafad0841b2849bda5775144"
+  }
+}

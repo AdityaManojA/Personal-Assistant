@@ -1,0 +1,6 @@
+D:\Projects\Personal-Assistant\.agents\rules\graphify.md
+D:\Projects\Personal-Assistant\.agents\workflows\graphify.md
+D:\Projects\Personal-Assistant\GRAPHIFY_WORKFLOW.md
+D:\Projects\Personal-Assistant\README.md
+D:\Projects\Personal-Assistant\voice-assistant\config.yaml
+D:\Projects\Personal-Assistant\voice-assistant\requirements.txt
