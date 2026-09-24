@@ -205,7 +205,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": "sentencebuffer",
       "source_file": "voice-assistant/assistant/text.py",
@@ -624,30 +624,6 @@
       "source_location": "L101"
     },
     {
-      "id": "voice_assistant_run_setup_signal_handlers",
-      "label": "setup_signal_handlers()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 14,
-      "community_name": "setup_signal_handlers",
-      "file_type": "code",
-      "norm_label": "setup_signal_handlers()",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L35"
-    },
-    {
-      "id": "voice_assistant_run_setup_signal_handlers_handler",
-      "label": "handler()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 14,
-      "community_name": "setup_signal_handlers",
-      "file_type": "code",
-      "norm_label": "handler()",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L38"
-    },
-    {
       "id": "voice_assistant_assistant_audio_speaker_abort",
       "label": ".abort()",
       "_callable": true,
@@ -756,24 +732,12 @@
       "source_location": "L146"
     },
     {
-      "id": "voice_assistant_assistant_audio_list_devices",
-      "label": "list_devices()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "code",
-      "norm_label": "list_devices()",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L200"
-    },
-    {
       "id": "voice_assistant_assistant_text_clean_for_speech",
       "label": "clean_for_speech()",
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": "clean_for_speech()",
       "source_file": "voice-assistant/assistant/text.py",
@@ -785,7 +749,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": ".flush()",
       "source_file": "voice-assistant/assistant/text.py",
@@ -797,7 +761,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "voice-assistant/assistant/text.py",
@@ -809,35 +773,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": ".push()",
       "source_file": "voice-assistant/assistant/text.py",
       "source_location": "L40"
-    },
-    {
-      "id": "voice_assistant_run_main",
-      "label": "main()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "code",
-      "norm_label": "main()",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L46"
-    },
-    {
-      "id": "voice_assistant_run_process_with_llm",
-      "label": "process_with_llm()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "code",
-      "norm_label": "process_with_llm()",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L250"
     },
     {
       "id": "voice_assistant_assistant_audio_chunker",
@@ -845,11 +785,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": "chunker()",
       "source_file": "voice-assistant/assistant/audio.py",
       "source_location": "L180"
+    },
+    {
+      "id": "voice_assistant_assistant_audio_list_devices",
+      "label": "list_devices()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "list_devices()",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L200"
     },
     {
       "id": "voice_assistant_assistant_audio_microphone_read",
@@ -857,11 +809,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": ".read()",
       "source_file": "voice-assistant/assistant/audio.py",
       "source_location": "L57"
+    },
+    {
+      "id": "voice_assistant_assistant_audio_to_float32",
+      "label": "to_float32()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "to_float32()",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L170"
     },
     {
       "id": "voice_assistant_assistant_audio_to_int16",
@@ -869,7 +833,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": "to_int16()",
       "source_file": "voice-assistant/assistant/audio.py",
@@ -881,7 +845,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": "tone()",
       "source_file": "voice-assistant/assistant/audio.py",
@@ -893,11 +857,35 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": "play_chime()",
       "source_file": "voice-assistant/assistant/tts.py",
       "source_location": "L172"
+    },
+    {
+      "id": "voice_assistant_run_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L46"
+    },
+    {
+      "id": "voice_assistant_run_process_with_llm",
+      "label": "process_with_llm()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "process_with_llm()",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L250"
     },
     {
       "id": "voice_assistant_assistant_tools_tools_cancel_timer",
@@ -1008,16 +996,28 @@
       "source_location": "L175"
     },
     {
-      "id": "voice_assistant_assistant_audio_to_float32",
-      "label": "to_float32()",
+      "id": "voice_assistant_run_setup_signal_handlers",
+      "label": "setup_signal_handlers()",
       "_callable": true,
       "_origin": "ast",
       "community": 6,
       "community_name": "run.py",
       "file_type": "code",
-      "norm_label": "to_float32()",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L170"
+      "norm_label": "setup_signal_handlers()",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "voice_assistant_run_setup_signal_handlers_handler",
+      "label": "handler()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "run.py",
+      "file_type": "code",
+      "norm_label": "handler()",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L38"
     },
     {
       "id": "voice_assistant_assistant_tts_voice_close",
@@ -1725,15 +1725,118 @@
       "source_location": "L23"
     },
     {
-      "id": "voice_assistant_run_rationale_36",
-      "label": "Set up signal handlers for graceful shutdown.",
+      "id": "get_gmail_token",
+      "label": "get_gmail_token.py",
       "_origin": "ast",
       "community": 14,
-      "community_name": "setup_signal_handlers",
-      "file_type": "rationale",
-      "norm_label": "set up signal handlers for graceful shutdown.",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L36"
+      "community_name": "google_auth_oauthlib_flow",
+      "file_type": "code",
+      "norm_label": "get_gmail_token.py",
+      "source_file": "get_gmail_token.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scriptrun",
+      "label": "scriptrun.py",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "google_auth_oauthlib_flow",
+      "file_type": "code",
+      "norm_label": "scriptrun.py",
+      "source_file": "scriptrun.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_workflow",
+      "label": "GRAPHIFY_WORKFLOW.md",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Graphify + Antigravity Project Workflow & Setup Guide",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "graphify_workflow.md",
+      "source_file": "GRAPHIFY_WORKFLOW.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_workflow_1_new_project_setup_one_time",
+      "label": "1. New Project Setup (One-Time)",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Graphify + Antigravity Project Workflow & Setup Guide",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. new project setup (one-time)",
+      "source_file": "GRAPHIFY_WORKFLOW.md",
+      "source_location": "L2"
+    },
+    {
+      "id": "graphify_workflow_graphify_antigravity_project_workflow_setup_guide",
+      "label": "Graphify + Antigravity Project Workflow & Setup Guide",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Graphify + Antigravity Project Workflow & Setup Guide",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "graphify + antigravity project workflow & setup guide",
+      "source_file": "GRAPHIFY_WORKFLOW.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_rules_graphify",
+      "label": "rules/graphify.md",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "rules/graphify.md",
+      "file_type": "document",
+      "frontmatter": {
+        "trigger": "always_on",
+        "description": "Consult the graphify knowledge graph at graphify-out/ for codebase and architecture questions."
+      },
+      "node_kind": "page",
+      "norm_label": "rules/graphify.md",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_rules_graphify_graphify",
+      "label": "graphify",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "rules/graphify.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "graphify",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "agents_workflows_graphify",
+      "label": "workflows/graphify.md",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "workflows/graphify.md",
+      "file_type": "document",
+      "frontmatter": {
+        "name": "graphify",
+        "description": "Turn any folder of files into a navigable knowledge graph"
+      },
+      "node_kind": "page",
+      "norm_label": "workflows/graphify.md",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_workflows_graphify_workflow_graphify",
+      "label": "Workflow: graphify",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "workflows/graphify.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "workflow: graphify",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6"
     },
     {
       "id": "voice_assistant_assistant_audio_rationale_111",
@@ -1769,55 +1872,22 @@
       "source_location": "L83"
     },
     {
-      "id": "callable",
-      "label": "callable",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "code",
-      "norm_label": "callable",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "openai",
-      "label": "OpenAI",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "code",
-      "norm_label": "openai",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "voice_assistant_assistant_text",
       "label": "text.py",
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "code",
       "norm_label": "text.py",
       "source_file": "voice-assistant/assistant/text.py",
       "source_location": "L1"
     },
     {
-      "id": "voice_assistant_assistant_audio_rationale_201",
-      "label": "Human-readable device listing for `run.py --devices`.",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "rationale",
-      "norm_label": "human-readable device listing for `run.py --devices`.",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L201"
-    },
-    {
       "id": "voice_assistant_assistant_text_rationale_1",
       "label": "Text helpers for spoken output.",
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "rationale",
       "norm_label": "text helpers for spoken output.",
       "source_file": "voice-assistant/assistant/text.py",
@@ -1828,40 +1898,95 @@
       "label": "Accumulates streamed tokens and emits whole sentences. Speaking on sentence\u2026",
       "_origin": "ast",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "file_type": "rationale",
       "norm_label": "accumulates streamed tokens and emits whole sentences. speaking on sentence...",
       "source_file": "voice-assistant/assistant/text.py",
       "source_location": "L28"
     },
     {
-      "id": "voice_assistant_run_rationale_256",
-      "label": "Process user text with LLM, handling tool calls.",
+      "id": "callable",
+      "label": "callable",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "main",
-      "file_type": "rationale",
-      "norm_label": "process user text with llm, handling tool calls.",
-      "source_file": "voice-assistant/run.py",
-      "source_location": "L256"
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "callable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "openai",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "voice_assistant_assistant_audio",
+      "label": "audio.py",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "audio.py",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L1"
     },
     {
       "id": "voice_assistant_assistant_audio_py_ndarray",
       "label": "ndarray",
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "code",
       "norm_label": "ndarray",
       "source_file": "",
       "source_location": ""
     },
     {
+      "id": "voice_assistant_assistant_tts",
+      "label": "tts.py",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "code",
+      "norm_label": "tts.py",
+      "source_file": "voice-assistant/assistant/tts.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "voice_assistant_assistant_audio_rationale_1",
+      "label": "Microphone capture and speaker playback. Everything downstream wants 16 kHz\u2026",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "rationale",
+      "norm_label": "microphone capture and speaker playback. everything downstream wants 16 khz...",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "voice_assistant_assistant_audio_rationale_171",
+      "label": "int16 -> float32 in [-1, 1], which is what the models expect.",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "rationale",
+      "norm_label": "int16 -> float32 in [-1, 1], which is what the models expect.",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L171"
+    },
+    {
       "id": "voice_assistant_assistant_audio_rationale_176",
       "label": "float32 in [-1, 1] -> int16.",
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "rationale",
       "norm_label": "float32 in [-1, 1] -> int16.",
       "source_file": "voice-assistant/assistant/audio.py",
@@ -1872,7 +1997,7 @@
       "label": "Yield fixed-size slices, dropping any trailing partial chunk.",
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "rationale",
       "norm_label": "yield fixed-size slices, dropping any trailing partial chunk.",
       "source_file": "voice-assistant/assistant/audio.py",
@@ -1883,22 +2008,55 @@
       "label": "Generate a short sine tone. Used for the activation chime so we ship no binary\u2026",
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "rationale",
       "norm_label": "generate a short sine tone. used for the activation chime so we ship no binary...",
       "source_file": "voice-assistant/assistant/audio.py",
       "source_location": "L187"
     },
     {
+      "id": "voice_assistant_assistant_audio_rationale_201",
+      "label": "Human-readable device listing for `run.py --devices`.",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "rationale",
+      "norm_label": "human-readable device listing for `run.py --devices`.",
+      "source_file": "voice-assistant/assistant/audio.py",
+      "source_location": "L201"
+    },
+    {
+      "id": "voice_assistant_assistant_tts_rationale_1",
+      "label": "Text to speech, with a worker thread so synthesis never blocks the LLM stream.\u2026",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "rationale",
+      "norm_label": "text to speech, with a worker thread so synthesis never blocks the llm stream....",
+      "source_file": "voice-assistant/assistant/tts.py",
+      "source_location": "L1"
+    },
+    {
       "id": "voice_assistant_assistant_tts_rationale_173",
       "label": "Two quick ascending tones so the user knows the wake word landed.",
       "_origin": "ast",
       "community": 4,
-      "community_name": "tone",
+      "community_name": "audio.py",
       "file_type": "rationale",
       "norm_label": "two quick ascending tones so the user knows the wake word landed.",
       "source_file": "voice-assistant/assistant/tts.py",
       "source_location": "L173"
+    },
+    {
+      "id": "voice_assistant_run_rationale_256",
+      "label": "Process user text with LLM, handling tool calls.",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "audio.py",
+      "file_type": "rationale",
+      "norm_label": "process user text with llm, handling tool calls.",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L256"
     },
     {
       "id": "voice_assistant_assistant_tools_rationale_134",
@@ -2000,17 +2158,6 @@
       "source_location": "L98"
     },
     {
-      "id": "voice_assistant_assistant_audio",
-      "label": "audio.py",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "run.py",
-      "file_type": "code",
-      "norm_label": "audio.py",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L1"
-    },
-    {
       "id": "voice_assistant_assistant_stt",
       "label": "stt.py",
       "_origin": "ast",
@@ -2030,17 +2177,6 @@
       "file_type": "code",
       "norm_label": "tools.py",
       "source_file": "voice-assistant/assistant/tools.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "voice_assistant_assistant_tts",
-      "label": "tts.py",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "run.py",
-      "file_type": "code",
-      "norm_label": "tts.py",
-      "source_file": "voice-assistant/assistant/tts.py",
       "source_location": "L1"
     },
     {
@@ -2077,28 +2213,6 @@
       "source_location": "L1"
     },
     {
-      "id": "voice_assistant_assistant_audio_rationale_1",
-      "label": "Microphone capture and speaker playback. Everything downstream wants 16 kHz\u2026",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "run.py",
-      "file_type": "rationale",
-      "norm_label": "microphone capture and speaker playback. everything downstream wants 16 khz...",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "voice_assistant_assistant_audio_rationale_171",
-      "label": "int16 -> float32 in [-1, 1], which is what the models expect.",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "run.py",
-      "file_type": "rationale",
-      "norm_label": "int16 -> float32 in [-1, 1], which is what the models expect.",
-      "source_file": "voice-assistant/assistant/audio.py",
-      "source_location": "L171"
-    },
-    {
       "id": "voice_assistant_assistant_stt_rationale_1",
       "label": "Speech to text. Default is faster-whisper running locally on CPU with int8\u2026",
       "_origin": "ast",
@@ -2118,17 +2232,6 @@
       "file_type": "rationale",
       "norm_label": "tools for the voice assistant. implements time, timers, notes, and system tools...",
       "source_file": "voice-assistant/assistant/tools.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "voice_assistant_assistant_tts_rationale_1",
-      "label": "Text to speech, with a worker thread so synthesis never blocks the LLM stream.\u2026",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "run.py",
-      "file_type": "rationale",
-      "norm_label": "text to speech, with a worker thread so synthesis never blocks the llm stream....",
-      "source_file": "voice-assistant/assistant/tts.py",
       "source_location": "L1"
     },
     {
@@ -2163,6 +2266,17 @@
       "norm_label": "main entry point for the voice assistant. pipeline: microphone -> wake word ->...",
       "source_file": "voice-assistant/run.py",
       "source_location": "L2"
+    },
+    {
+      "id": "voice_assistant_run_rationale_36",
+      "label": "Set up signal handlers for graceful shutdown.",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "run.py",
+      "file_type": "rationale",
+      "norm_label": "set up signal handlers for graceful shutdown.",
+      "source_file": "voice-assistant/run.py",
+      "source_location": "L36"
     },
     {
       "id": "voice_assistant_assistant_tts_rationale_121",
@@ -2281,10 +2395,46 @@
       "label": "re",
       "_origin": "semantic",
       "community": 3,
-      "community_name": "main",
+      "community_name": "SentenceBuffer",
       "external": true,
       "file_type": "concept",
       "norm_label": "re",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "queue",
+      "label": "queue",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "audio.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "queue",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "sounddevice",
+      "label": "sounddevice",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "audio.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sounddevice",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "threading",
+      "label": "threading",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "audio.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "threading",
       "source_file": "",
       "type": "external"
     },
@@ -2397,18 +2547,6 @@
       "type": "external"
     },
     {
-      "id": "queue",
-      "label": "queue",
-      "_origin": "semantic",
-      "community": 6,
-      "community_name": "run.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "queue",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "signal",
       "label": "signal",
       "_origin": "semantic",
@@ -2421,18 +2559,6 @@
       "type": "external"
     },
     {
-      "id": "sounddevice",
-      "label": "sounddevice",
-      "_origin": "semantic",
-      "community": 6,
-      "community_name": "run.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "sounddevice",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "sys",
       "label": "sys",
       "_origin": "semantic",
@@ -2441,18 +2567,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "sys",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "threading",
-      "label": "threading",
-      "_origin": "semantic",
-      "community": 6,
-      "community_name": "run.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "threading",
       "source_file": "",
       "type": "external"
     },
@@ -2501,6 +2615,17 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "wave",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "google_auth_oauthlib_flow",
+      "label": "google_auth_oauthlib_flow",
+      "community": 14,
+      "community_name": "google_auth_oauthlib_flow",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "google_auth_oauthlib_flow",
       "source_file": "",
       "type": "external"
     }
@@ -3707,6 +3832,30 @@
       "weight": 1.0
     },
     {
+      "source": "get_gmail_token",
+      "target": "google_auth_oauthlib_flow",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "get_gmail_token.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scriptrun",
+      "target": "google_auth_oauthlib_flow",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scriptrun.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "voice_assistant_assistant_audio",
       "target": "typing",
       "relation": "imports_from",
@@ -4292,6 +4441,50 @@
       "context": "return_type",
       "source_file": "voice-assistant/assistant/vad.py",
       "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_graphify",
+      "target": "agents_rules_graphify_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_workflows_graphify",
+      "target": "agents_workflows_graphify_workflow_graphify",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_workflow",
+      "target": "graphify_workflow_graphify_antigravity_project_workflow_setup_guide",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "GRAPHIFY_WORKFLOW.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_workflow_graphify_antigravity_project_workflow_setup_guide",
+      "target": "graphify_workflow_1_new_project_setup_one_time",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "GRAPHIFY_WORKFLOW.md",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -6190,5 +6383,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aa1ad4414a684ec7b6599d08d44a95dcebffc10c"
+  "built_at_commit": "e38353e7c32dc7679d6fc49380b49d4a74b25d81"
 }

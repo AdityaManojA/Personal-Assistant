@@ -350,8 +350,41 @@
       "why": "bridges separate communities"
     }
   ],
-  "tokens": {
-    "input": 0,
-    "output": 0
-  }
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Tools` connect `Tools` to `stt.py`?",
+      "why": "High betweenness centrality (0.168) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Speaker` connect `Speaker` to `run.py`, `audio.py`, `Voice`?",
+      "why": "High betweenness centrality (0.121) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Voice` connect `Voice` to `Speaker`, `run.py`, `audio.py`?",
+      "why": "High betweenness centrality (0.117) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `Speaker` (e.g. with `play_chime()` and `Voice`) actually correct?",
+      "why": "`Speaker` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `AssistantConfig`, `LLMConfig`, `STTConfig` to the rest of the system?",
+      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `vad.py` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10826210826210826 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `config.py` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10333333333333333 - nodes in this community are weakly interconnected."
+    }
+  ]
 }
