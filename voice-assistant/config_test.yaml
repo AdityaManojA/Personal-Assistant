@@ -1,0 +1,99 @@
+# Voice assistant configuration.
+# Every value here can also be overridden with an environment variable using
+# double-underscore nesting, e.g. LLM__MODEL=meta/llama-3.3-70b-instruct
+
+audio:
+  # null = system default device. Run `python run.py --devices` to list options.
+  input_device: null
+  output_device: null
+  sample_rate: 16000      # mic rate. 16 kHz is what wake word / VAD / Whisper want.
+  frame_ms: 80            # 1280 samples per frame — openWakeWord's native size
+
+wakeword:
+  enabled: false
+  # Bundled options: hey_jarvis, alexa, hey_mycroft, hey_rhasspy
+  # Train your own phrase: https://github.com/dscripka/openWakeWord
+  model: hey_jarvis
+  threshold: 0.5          # lower = easier to trigger, more false positives
+  cooldown_s: 1.2         # ignore re-triggers for this long after a wake
+  activation_sound: true  # short chime so you know it heard you
+
+vad:
+  use_onnx: true          # keeps the install torch-free
+  threshold: 0.5
+  min_speech_ms: 200      # ignore blips shorter than this
+  silence_ms: 700         # trailing silence that ends an utterance
+  pre_roll_ms: 240        # audio kept from just before speech starts
+  max_utterance_s: 30     # hard stop
+  start_timeout_s: 6      # give up if no speech after the wake word
+
+stt:
+  backend: local          # local | nim
+  model: base.en          # tiny.en (fastest) | base.en (balanced) | small.en (accurate)
+  device: cpu
+  compute_type: int8      # int8 | int8_float16 | float16 | float32
+  language: en
+  beam_size: 1            # 1 = greedy, fastest
+  nim_model: nvidia/parakeet-tdt-0.6b-v2
+  nim_base_url: https://integrate.api.nvidia.com/v1
+
+tts:
+  backend: piper          # piper | nim | none
+  voice: en_US-lessac-medium
+  volume: 1.0
+
+llm:
+  base_url: https://integrate.api.nvidia.com/v1
+  # Any NIM-hosted model with tool-calling support. Good picks:
+  #   deepseek-ai/deepseek-v4.1-flash        (fast, cheap)
+  #   meta/llama-3.3-70b-instruct
+  #   qwen/qwen3-32b
+  model: deepseek-ai/deepseek-v4.1-flash
+  api_key_env: NVIDIA_API_KEY
+  temperature: 0.3
+  max_tokens: 400
+  timeout_s: 60
+  max_tool_rounds: 4
+
+assistant:
+  name: Alfred
+  greeting: "Ready."
+  history_turns: 8        # how many exchanges to keep in context
+  log_transcripts: true
+  system_prompt: |
+    You are {name}, a voice assistant. You are speaking out loud, so:
+    - Keep replies to one or two short sentences unless asked for detail.
+    - Never use markdown, bullet points, emoji, or code blocks. Plain spoken prose.
+    - Say numbers and units the way a person would say them out loud.
+    - If a request needs a tool, just call it. Do not narrate what you are about to do.
+    - If you did not understand, ask a short clarifying question.
+
+tools:
+  enabled:
+    - time
+    - timers
+    - notes
+    - system
+  allow_shell: false      # set true to expose run_shell_command — read the README first
+  notes_file: notes.md
+  # Reuse existing MCP servers instead of writing new tools.
+  # Each entry is a stdio server command. Requires `pip install mcp`.
+  mcp_servers:
+    gmail:
+      command: npx
+      args: ["-y", "gmail-mcp"]
+      env:
+        # OAuth2 (Recommended)
+        GMAIL_CLIENT_ID: "234862535230-lp5atihq3nk4ecidb3o131iiedeapvhs.apps.googleusercontent.com"
+        GMAIL_CLIENT_SECRET: "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"
+        GMAIL_REFRESH_TOKEN: "1//0gBDB7ewL32uXCgYIARAAGBASNwF-L9IrCeptFuqK2B7P974tD_MCsh6iWLHKzst0SocU8flqmUlNJkKGQpWsSBOKWhQ1s3QS2-g"
+
+        # OR App Password (Less secure but simpler)
+        # GMAIL_USER: "your.email@gmail.com"
+        # GMAIL_APP_PASSWORD: "your-16-char-app-password"
+  # mcp_servers:
+  #   gworkspace:
+  #     command: npx
+  #     args: ["-y", "@your-org/google-workspace-mcp"]
+  #     env:
+  #       GOOGLE_APPLICATION_CREDENTIALS: "C:/path/to/creds.json"
